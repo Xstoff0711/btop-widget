@@ -6,7 +6,7 @@ pkgdesc="btop resource monitor as a KDE Plasma 6 widget"
 arch=('any')
 url="https://github.com/Xstoff0711/btop-widget"
 license=('GPL-2.0-or-later')
-depends=('plasma-workspace' 'btop' 'qmlterm-widget')
+depends=('plasma-workspace' 'btop' 'qmltermwidget')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('ede060421c0ed54b1dfca66d759edc7712865fd65cb02afe196e7dea78d4b2ce')
 

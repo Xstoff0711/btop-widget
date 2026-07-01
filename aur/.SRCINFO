@@ -7,7 +7,7 @@ pkgbase = plasma6-btop-widget
 	license = GPL-2.0-or-later
 	depends = plasma-workspace
 	depends = btop
-	depends = qmlterm-widget
+	depends = qmltermwidget
 	source = plasma6-btop-widget-1.1.tar.gz::https://github.com/Xstoff0711/btop-widget/archive/v1.1.tar.gz
 	sha256sums = ede060421c0ed54b1dfca66d759edc7712865fd65cb02afe196e7dea78d4b2ce
 
