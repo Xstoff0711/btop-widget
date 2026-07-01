@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "c.stilling83@googlemail.com",
+                "Name": "xstoff"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "btop resource monitor as a Plasma widget",
+        "Icon": "utilities-system-monitor",
+        "Id": "com.xstoff.btopwidget",
+        "License": "GPL-2.0-or-later",
+        "Name": "btop Widget",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
