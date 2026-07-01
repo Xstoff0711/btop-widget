@@ -4,7 +4,7 @@ A KDE Plasma 6 widget that embeds the [btop](https://github.com/aristocratos/bto
 
 ## Preview
 
-> btop running as a native Plasma widget on the desktop.
+![btop Widget running on KDE Plasma 6](screenshot.png)
 
 ## Requirements
 
