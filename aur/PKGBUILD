@@ -1,0 +1,18 @@
+# Maintainer: xstoff <c.stilling83@googlemail.com>
+pkgname=plasma6-btop-widget
+pkgver=1.0
+pkgrel=1
+pkgdesc="btop resource monitor as a KDE Plasma 6 widget"
+arch=('any')
+url="https://github.com/Xstoff0711/btop-widget"
+license=('GPL-2.0-or-later')
+depends=('plasma' 'btop' 'qmlterm-widget')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
+sha256sums=('64aa34950a73bfe0c0c9e4e7a11637e995dcd51a0dd63182a05874c2050e92f5')
+
+package() {
+    cd "$srcdir/btop-widget-$pkgver"
+    local _dest="$pkgdir/usr/share/plasma/plasmoids/com.xstoff.btopwidget"
+    install -dm755 "$_dest"
+    cp -r metadata.json contents "$_dest/"
+}
